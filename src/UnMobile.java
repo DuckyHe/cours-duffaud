@@ -7,7 +7,7 @@ public class UnMobile extends JPanel implements Runnable
     final int sonPas = 10, sonTemps = 50, sonCote = 40;
     int sonSens = 1; // 1 = vers la droite, -1 = vers la gauche
 
-    public UnMobile(int telleLargeur, int telleHauteur)
+    public UnMobile(double temps, int telleLargeur, int telleHauteur)
     {
         super();
         saLargeur = telleLargeur;
